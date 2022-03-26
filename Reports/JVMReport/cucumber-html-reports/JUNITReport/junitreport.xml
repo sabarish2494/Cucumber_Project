@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.77247">
+<testcase classname="To validate login functionality in fb application" name="To validate  the empty username and password" time="7.77247">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.step.StepDefinition2.user_will_navigates_to_the_invalid_credential_page(StepDefinition2.java:29)&#13;&#10;&#9;at ✽.user will navigates to the invalid credential page(file:src/test/resources/Features/login.feature:21)&#13;&#10;"><![CDATA[Given user should be enter the login webpage................................passed
+Given user enter to the login page..........................................passed
+When user clicks the login button...........................................passed
+Then user will navigates to the invalid credential page.....................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.step.StepDefinition2.user_will_navigates_to_the_invalid_credential_page(StepDefinition2.java:29)
+	at ✽.user will navigates to the invalid credential page(file:src/test/resources/Features/login.feature:21)
+]]></failure>
+</testcase>
+</testsuite>
